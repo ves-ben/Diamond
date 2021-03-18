@@ -1,0 +1,409 @@
+body {
+  text-align: center;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+
+
+/* Section */
+
+.color-section {
+  background-color: #222831;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1.5rem;
+}
+
+.contact-text {
+  line-height: 2.5;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Go Top */
+
+
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.logo-size {
+  width: 17%;
+}
+
+.navbar-toggler{
+  font-size: 2.5rem;
+  border: 5px solid transparent;
+  border-radius: .5rem
+}
+
+.navbar-brand {
+  font-size: 3.5rem;
+}
+
+.nav-item {
+  padding: 0 18px
+}
+
+.nav-link {
+  font-size: 1.75rem;
+}
+
+/* Call Button */
+
+.call-button {
+  margin: 5% 3% 5% 0;
+  width: 40%;
+}
+
+/* Title*/
+
+#title  .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-img {
+  width: 80%;
+  position: absolute;
+  right: 0%;
+}
+
+.light-img1 {
+  width: 50%;
+  position: absolute;
+  right: 13%;
+}
+
+.light-img2 {
+  width: 50%;
+  position: absolute;
+  right: 50%;
+}
+
+
+/* Features */
+
+
+#features {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.fratures-title {
+  font-size: 1.5rem;
+}
+
+.features-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.bold-paragraf {
+  color: #000;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Gallery */
+
+#gallery  {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#gallery .row > .column {
+  padding: 0 8px;
+}
+
+#gallery .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#gallery .column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+#gallery .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+#gallery .modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+#gallery .close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#gallery .close:hover,
+#gallery .close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#gallery .mySlides {
+  display: none;
+}
+
+#gallery .cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+#gallery .prev,
+#gallery .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+#gallery .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+#gallery .prev:hover,
+#gallery .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+#gallery .numbertext {
+  color: #000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+#gallery img {
+  padding: 2% 1%;
+  border-radius: 3%;
+}
+
+#gallery .caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+#gallery img.hover-shadow {
+  transition: 0.3s;
+}
+
+#gallery .hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#gallery .container-fluid {
+  padding: 2% 3%;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: auto 15%;
+}
+
+
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.type-car {
+  font-size: 2.25rem;
+  line-height: 2;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height:2.5;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.bigger-para {
+  font-size: 2rem;
+}
+
+.container-price {
+  padding: 0% 25%;
+}
+
+@media (max-width: 992px) {
+
+  #title{
+    text-align: center;
+  }
+
+  #pricing .container-price {
+    padding: 0px;
+  }
+
+
+  .title-img {
+    position: static;
+  }
+
+  .light-img1 {
+    right: 33%;
+    bottom: 16%;
+  }
+
+  .light-img2 {
+    right: 68%;
+    bottom: 16%;
+  }
+
+}
+
+/* About */
+
+.about-dec {
+  line-height: 1.75;
+}
+
+/* Ask */
+
+.numeric {
+  text-align: center;
+
+
+}
+
+/* Footer */
+
+#footer {
+  padding: 2%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: #fff;
+}
+
+.copyright {
+  color: #fff;
+}
+
+/* Go Up */
